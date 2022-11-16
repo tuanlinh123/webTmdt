@@ -23,7 +23,7 @@ const handleResponse = (response) => {
         }
         if(login_check == true){
             TB.innerText = "";
-            // alert("Đăng nhập thành công");
+            alert("Đăng nhập thành công");
         }
         else if(login_user.value.trim()!="" && login_psw.value.trim()!=""){
             TB.innerText = "Tài khoản hoặc mật khẩu không chính xác";
